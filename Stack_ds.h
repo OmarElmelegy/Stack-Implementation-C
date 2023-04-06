@@ -16,7 +16,7 @@ typedef enum stack_status{
     STACK_NOT_FULL
 }stack_status_t;
 
-return_status_t stack_init(stack_ds_t *smy_stack);
+return_status_t stack_init(stack_ds_t *my_stack);
 return_status_t stack_push(stack_ds_t *my_stack, uint32_t value);
 return_status_t stack_pop(stack_ds_t *my_stack, uint32_t *value);
 return_status_t stack_top(stack_ds_t *my_stack, uint32_t *value);
